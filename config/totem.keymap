@@ -34,11 +34,7 @@
         compatible = "zmk,keymap";
 
         base_layer {
-
             label = "BASE";
-
-
-
             bindings = <
                 &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y                &kp U            &kp I      &kp O    &kp P
                 &kp A  &kp S  &kp D  &kp F  &kp G        &kp H                &kp J            &kp K      &kp L    &kp SEMICOLON
@@ -58,10 +54,10 @@
 
         nav_layer {
             bindings = <
-        &trans     &trans          &kp DOWN_ARROW  &trans           &trans          &trans  &trans  &trans  &trans  &trans
-        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp QUESTION    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp SLASH       &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans          &trans           &trans          &trans  &trans  &trans
+        &trans     &trans          &kp DOWN_ARROW  &trans           &trans          &trans  &trans             &trans  &trans  &trans
+        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp QUESTION    &trans  &trans             &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp SLASH       &trans  &trans             &trans  &trans  &trans  &trans
+                                   &trans          &trans           &trans          &trans  &kp LA(BACKSPACE)  &trans
             >;
         };
 
