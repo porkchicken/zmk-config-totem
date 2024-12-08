@@ -56,7 +56,7 @@
             bindings = <
         &trans     &trans          &kp DOWN_ARROW  &trans           &trans          &trans  &trans             &trans  &trans  &trans
         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp QUESTION    &trans  &trans             &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp SLASH       &trans  &trans             &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp SLASH       &trans  &trans             &trans  &trans  &trans  &kp PLUS
                                    &trans          &trans           &trans          &trans  &kp LA(BACKSPACE)  &trans
             >;
         };
