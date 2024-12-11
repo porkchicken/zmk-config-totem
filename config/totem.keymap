@@ -22,7 +22,7 @@
 #define TVP2 5
 
 &mt {
-    quick-tap-ms = <100>;
+    quick-tap-ms = <125>;
     global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
@@ -44,10 +44,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-               &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y                &kp U            &kp I            &kp O    &kp P
-               &kp A  &kp S  &kp D           &kp F  &kp G        &kp H                &kp J            &kp K            &kp L    &kp SEMICOLON
-&mt LCTRL TAB  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N                &kp M            &kp COMMA        &kp DOT  &kp SQT        &kp MINUS
-                             &sk LEFT_SHIFT  &mo 1  &kp SPACE    &mt RIGHT_SHIFT RET  &lt 1 BACKSPACE  &sk RIGHT_SHIFT
+               &kp Q  &kp W  &kp E  &kp R  &kp T                   &kp Y                &kp U            &kp I         &kp O    &kp P
+               &kp A  &kp S  &kp D  &kp F  &kp G                   &kp H                &kp J            &kp K         &kp L    &kp SEMICOLON
+&mt LCTRL TAB  &kp Z  &kp X  &kp C  &kp V  &kp B                   &kp N                &kp M            &kp COMMA     &kp DOT  &kp SQT        &kp MINUS
+                             &sl 1  &mo 1  &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT RET  &lt 1 BACKSPACE  &lt 2 PERIOD
             >;
         };
 
