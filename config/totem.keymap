@@ -66,19 +66,19 @@
         base_layer {
             label = "BASE";
             bindings = <
-           &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y                      &kp U        &kp I           &kp O    &kp P
-           &kp A  &kp S  &kp D           &kp F  &kp G        &kp H                      &kp J        &kp K           &kp L    &kp SEMICOLON
-&sk LCTRL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N                      &kp M        &kp COMMA       &kp DOT  &kp SQT        &kp MINUS
-                         &num_word NAVR  &mo 1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER  &num_word NAVL
+                &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y          &kp U                  &kp I         &kp O    &kp P
+                &kp A  &kp S  &kp D           &kp F  &kp G        &kp H          &kp J                  &kp K         &kp L    &kp SEMICOLON
+&sk LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N          &kp M                  &kp COMMA     &kp DOT  &kp SQT        &kp MINUS
+                              &num_word NAVR  &sl 1  &kp SPACE    &kp BACKSPACE  &mt RIGHT_SHIFT ENTER  &lt 2 PERIOD
             >;
         };
 
         super_layer {
             bindings = <
-           &kp EXCL   &kp AT_SIGN  &kp UP_ARROW    &kp DOLLAR       &kp PERCENT     &kp N7                         &kp N8        &kp N9      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &trans     &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp QUESTION    &kp N4                         &kp N5        &kp N6      &kp FSLH              &kp COLON
-&kp LCTRL  &kp LC(Z)  &kp LC(X)    &kp LC(C)       &kp LC(V)        &kp SLASH       &kp N1                         &kp N2        &kp N3      &kp DOT               &kp DOUBLE_QUOTES      &kp PLUS
-                                   &trans          &trans           &trans          &mt RIGHT_SHIFT LA(BACKSPACE)  &kp NUMBER_0  &kp PERIOD
+                &kp EXCL   &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT)    &kp PERCENT     &kp N7                         &kp N8        &kp N9      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+                &trans     &kp LEFT            &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp QUESTION    &kp N4                         &kp N5        &kp N6      &kp FSLH              &kp COLON
+&kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)           &kp LC(C)       &kp LC(V)        &kp SLASH       &kp N1                         &kp N2        &kp N3      &kp DOT               &kp DOUBLE_QUOTES      &kp PLUS
+                                               &trans          &trans           &trans          &mt RIGHT_SHIFT LA(BACKSPACE)  &kp NUMBER_0  &kp PERIOD
             >;
 
             label = "super";
