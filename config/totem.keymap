@@ -80,8 +80,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp RET &kp LS(B) &kp LS(P) &kp RET &kp LS(H) &kp LS(R) &kp RET &kp LS(R) &kp LS(R) &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "NEW_MACRO";
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <20>;
+            tap-ms = <10>;
         };
     };
 
