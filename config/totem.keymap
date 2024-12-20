@@ -94,7 +94,7 @@
         bloods: bloods {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW>;
+            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "BLOODS";
             wait-ms = <20>;
             tap-ms = <10>;
