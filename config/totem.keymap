@@ -59,6 +59,13 @@
             require-prior-idle-ms = <150>;
             layers = <0 1>;
         };
+
+        capswordcut {
+            bindings = <&caps_word>;
+            key-positions = <20 35>;
+            require-prior-idle-ms = <150>;
+            layers = <0 1>;
+        };
     };
 
     behaviors {
@@ -75,11 +82,20 @@
     };
 
     macros {
-        obs: new_macro {
+        obs: obs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp RET &kp LS(B) &kp LS(P) &kp RET &kp LS(H) &kp LS(R) &kp RET &kp LS(R) &kp LS(R) &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
-            label = "NEW_MACRO";
+            label = "obs";
+            wait-ms = <20>;
+            tap-ms = <10>;
+        };
+
+        bloods: bloods {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW>;
+            label = "BLOODS";
             wait-ms = <20>;
             tap-ms = <10>;
         };
