@@ -236,7 +236,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &kp LA(BACKSPACE)  &trans  &trans
+                        &trans  &trans  &trans    &kp LC(BACKSPACE)  &trans  &trans
             >;
         };
     };
