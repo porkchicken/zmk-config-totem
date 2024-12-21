@@ -114,7 +114,6 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <8 18>;
             layers = <0 1>;
-
             require-prior-idle-ms = <280>;
         };
 
@@ -122,7 +121,6 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 19>;
             layers = <0 1>;
-            
             require-prior-idle-ms = <280>;
         };
     };
@@ -178,7 +176,7 @@
         bloods: bloods {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp SPACE &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "BLOODS";
             wait-ms = <20>;
             tap-ms = <10>;
@@ -207,10 +205,10 @@
 
         SUPER {
             bindings = <
-                &kp EXCL   &kp LA(LEFT_ARROW)             &Arrowtap LC(UP_ARROW) UP_ARROW      &kp LA(RIGHT)                          &kp PERCENT     &kp N7                     &kp N8        &kp N9      &brak     &trans
-                &trans     &Arrowtap LC(LEFT_ARROW) LEFT  &Arrowtap LC(DOWN_ARROW) DOWN_ARROW  &Arrowtap LC(RIGHT_ARROW) RIGHT_ARROW  &kp QUESTION    &kp N4                     &kp N5        &kp N6      &kp FSLH  &trans
-&kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)                      &kp LC(C)                            &kp LC(V)                              &kp SLASH       &kp N1                     &kp N2        &kp N3      &trans    &trans  &Arrowtap PLUS MINUS
-                                                          &trans                               &trans                                 &trans          &mt RIGHT_SHIFT BACKSPACE  &kp NUMBER_0  &kp PERIOD
+                &kp EXCL   &kp LA(LEFT_ARROW)             &Arrowtap LC(UP_ARROW) UP_ARROW      &kp LA(RIGHT)                          &kp PERCENT     &kp N7                     &kp N8        &kp N9  &brak     &trans
+                &trans     &Arrowtap LC(LEFT_ARROW) LEFT  &Arrowtap LC(DOWN_ARROW) DOWN_ARROW  &Arrowtap LC(RIGHT_ARROW) RIGHT_ARROW  &kp QUESTION    &kp N4                     &kp N5        &kp N6  &kp FSLH  &trans
+&kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)                      &kp LC(C)                            &kp LC(V)                              &kp SLASH       &kp N1                     &kp N2        &kp N3  &trans    &trans  &Arrowtap PLUS MINUS
+                                                          &trans                               &trans                                 &trans          &mt RIGHT_SHIFT BACKSPACE  &kp NUMBER_0  &trans
             >;
 
             label = "super";
