@@ -57,42 +57,42 @@
         excl {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 10>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <1 11>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <2 12>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <3 13>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <4 14>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <5 15>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
             layers = <0 1>;
         };
 
@@ -100,27 +100,30 @@
             bindings = <&kp AMPERSAND>;
             key-positions = <6 16>;
             layers = <0 1>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
         };
 
         starsign {
             bindings = <&kp STAR>;
             key-positions = <7 17>;
             layers = <0 1>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <280>;
         };
 
         lpare {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <8 18>;
             layers = <0 1>;
+
+            require-prior-idle-ms = <280>;
         };
 
         rpare {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 19>;
             layers = <0 1>;
-            require-prior-idle-ms = <150>;
+            
+            require-prior-idle-ms = <280>;
         };
     };
 
