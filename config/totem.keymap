@@ -69,7 +69,7 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <1 11>;-
+            key-positions = <1 11>;
 require-prior-idle-ms = <150>;
         };
 
