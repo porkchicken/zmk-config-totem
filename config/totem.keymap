@@ -167,7 +167,7 @@
         obs: obs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(T) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp RET &kp LS(B) &kp LS(P) &kp RET &kp LS(H) &kp LS(R) &kp RET &kp LS(R) &kp LS(R) &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp LS(R) &kp LS(R) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp RET &kp SPACE &kp LS(B) &kp LS(P) &kp SPACE &kp RET &kp LS(H) &kp LS(R) &kp SPACE &kp RET &kp LS(T) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "obs";
             wait-ms = <20>;
             tap-ms = <10>;
@@ -176,7 +176,7 @@
         bloods: bloods {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp B &kp SPACE &kp SPACE &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp SPACE &kp RET &kp LS(C) &kp R &kp SPACE &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp LS(H) &kp B &kp SPACE &kp RET &kp LS(W) &kp LS(B) &kp LS(C) &kp SPACE &kp RET &kp LS(N) &kp E &kp U &kp T &kp SPACE &kp RET &kp RET &kp LS(N) &kp A &kp SPACE &kp RET &kp LS(K) &kp SPACE &kp RET &kp LS(C) &kp R &kp SPACE &kp RET &kp RET &kp LS(C) &kp LS(R) &kp LS(P) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "BLOODS";
             wait-ms = <20>;
             tap-ms = <10>;
