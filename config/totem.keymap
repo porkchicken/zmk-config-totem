@@ -40,13 +40,6 @@
             layers = <0 1 2>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-            layers = <0 1>;
-            require-prior-idle-ms = <280>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
