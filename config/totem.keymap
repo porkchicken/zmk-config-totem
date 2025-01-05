@@ -160,7 +160,7 @@
         obs: obs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp LS(R) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp RET &kp SPACE &kp LS(B) &kp LS(P) &kp SPACE &kp RET &kp LS(H) &kp LS(R) &kp SPACE &kp RET &kp LS(T) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp LS(R) &kp LS(R) &kp SPACE &kp RET &kp LS(O) &kp N2 &kp SPACE &kp RET &kp LS(B) &kp LS(P) &kp SPACE &kp RET &kp LS(H) &kp LS(R) &kp SPACE &kp RET &kp LS(T) &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "obs";
             wait-ms = <20>;
             tap-ms = <10>;
