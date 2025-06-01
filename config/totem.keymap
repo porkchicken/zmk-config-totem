@@ -201,7 +201,7 @@
                 &kp EXCL   &kp LA(LEFT_ARROW)             &Arrowtap LC(UP_ARROW) UP_ARROW      &kp LA(RIGHT)                          &kp PERCENT     &kp N7             &kp N8        &kp N9  &brak      &kp MINUS
                 &kp LC(A)  &Arrowtap LC(LEFT_ARROW) LEFT  &Arrowtap LC(DOWN_ARROW) DOWN_ARROW  &Arrowtap LC(RIGHT_ARROW) RIGHT_ARROW  &kp QUESTION    &kp N4             &kp N5        &kp N6  &kp FSLH   &trans
 &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)                      &kp LC(C)                            &kp LC(V)                              &kp SLASH       &kp N1             &kp N2        &kp N3  &kp MINUS  &trans     &Arrowtap PLUS MINUS
-                                                          &trans                               &trans                                 &trans          &kp LA(BACKSPACE)  &kp NUMBER_0  &trans
+                                                          &trans                               &trans                                 &trans          &kp LC(BACKSPACE)  &kp NUMBER_0  &trans
             >;
 
             label = "super";
@@ -231,15 +231,6 @@
         &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &kp LA(BACKSPACE)  &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
