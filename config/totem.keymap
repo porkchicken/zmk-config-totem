@@ -181,6 +181,13 @@
             bindings = <&none &kp LPAR &kp RPAR &kp LEFT_ARROW>;
             label = "BRAK";
         };
+
+        quotebitch: quotebitch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp DOUBLE_QUOTES &kp DOUBLE_QUOTES &kp LEFT>;
+            label = "QUOTEBITCH";
+        };
     };
 
     keymap {
@@ -198,9 +205,9 @@
 
         SUPER {
             bindings = <
-                &kp EXCL  &kp LC(LEFT_ARROW)   &Arrowtap LC(HOME) UP_ARROW   &kp LC(RIGHT)              &kp PERCENT     &kp N7             &kp N8        &kp N9  &brak      &kp MINUS
-                &trans    &Arrowtap HOME LEFT  &Arrowtap LC(END) DOWN_ARROW  &Arrowtap END RIGHT_ARROW  &kp QUESTION    &kp N4             &kp N5        &kp N6  &kp FSLH   &trans
-&kp LEFT_SHIFT  &trans    &trans               &trans                        &trans                     &kp SLASH       &kp N1             &kp N2        &kp N3  &kp MINUS  &trans     &Arrowtap PLUS MINUS
+                &kp EXCL  &kp LC(LEFT_ARROW)   &Arrowtap LC(HOME) UP_ARROW   &kp LC(RIGHT)              &kp PERCENT     &kp N7             &kp N8        &kp N9  &brak     &trans
+                &trans    &Arrowtap HOME LEFT  &Arrowtap LC(END) DOWN_ARROW  &Arrowtap END RIGHT_ARROW  &kp QUESTION    &kp N4             &kp N5        &kp N6  &kp FSLH  &trans
+&kp LEFT_SHIFT  &trans    &trans               &trans                        &trans                     &kp SLASH       &kp N1             &kp N2        &kp N3  &trans    &quotebitch  &Arrowtap PLUS MINUS
                                                &trans                        &trans                     &trans          &kp LC(BACKSPACE)  &kp NUMBER_0  &trans
             >;
 
